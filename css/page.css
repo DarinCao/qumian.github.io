@@ -1,0 +1,236 @@
+section{
+	background-image: url("https://jiejiangs-1253930943.file.myqcloud.com/images/bk.png");	
+	background-repeat: repeat-y;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	border-top: 2px #c7161e solid;
+}
+.box{
+	width: 96%;
+	margin: 0 auto;
+	padding-bottom: 40px;
+}
+
+.box-left{
+	width: 22%;
+	padding-bottom: 40px; 
+	background-color: #655e5e;
+	float: left;
+	display: inline-block;
+	border-radius: 0px 0px 50px;
+	position: relative;
+	top: 10px;
+}
+
+.box-left .title{
+	position: relative;
+	top: -20px;
+	width: 100%;
+	height: 50px;
+	background-color: #0b0101;
+}
+
+.box-left h3{
+	position: relative;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    top: 14px;
+}
+
+.box-left ul{
+	width: 100%;
+    margin: 0;
+}
+
+.box-left li{
+	color: #fff;
+    font-size: 16px;
+    line-height: 40px;  
+/*    transition:All 0.4s ease-in-out;
+    -webkit-transition:All 0.4s ease-in-out;
+    -moz-transition:All 0.4s ease-in-out;
+    -o-transition:All 0.4s ease-in-out;*/
+}
+
+/*动画效果*/
+/*.box-left li:hover{
+    transform:translateX(20px);
+    -webkit-transform:translateX(20px);
+    -moz-transform:translateX(20px);
+    -o-transform:translateX(20px);
+    -ms-transform:translateX(20px);
+}*/
+
+.box-left li a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.box-right{
+	float: right;
+	display: inline-block;	
+	width: 77%;
+	padding-right: 10px;
+	margin-top: 40px; 
+}
+
+.box-right-top{
+	padding-bottom: 40px;
+}
+
+ .box-right-top ul{
+	list-style: none;
+	border-bottom: 2px solid #c7161e;
+	padding-left: 0px;
+	padding-bottom: 10px;
+}
+
+.box-right-top ul li{
+	display: inline-block;
+	color: #555;
+	font-size: 16px;
+	text-align: left;		
+}
+
+.box-right-mid{
+	width: 100%;
+	padding: 40px;
+	border-radius: 10px;
+	background-color: #fff;
+	-webkit-box-shadow:0 0 10px rgba(204,204,204, .5); 
+    -moz-box-shadow:0 0 10px rgba(204, 204, 204, .5);  
+    box-shadow:0 0 10px rgba(204, 204, 204, .5);
+}
+
+.box-right-mid .box-text{
+    float: right;
+    display: inline-block;
+    width: 30%;
+}
+
+/*右侧文本段落样式*/
+.box-right-mid h4{
+	color: #ff9900;
+}
+h4.title{
+	padding: 10px 0;
+	font-size: 24px;
+	text-align: center
+}
+
+.box-right-mid ul{
+    margin: 0px 10px;
+    padding: 0px 10px;
+}
+
+/*微信二维码*/
+.box-weixin p{
+    text-align: center;
+}
+
+.box-weixin .wixin-fa{
+	display: inline-block;
+	float: left;
+    width: 50%;
+}
+
+.box-weixin .wixin-fa span{
+	display: block;
+	width: 160px;
+	height: 160px;
+	background-image: url("https://jiejiangs-1253930943.file.myqcloud.com/images/weixin.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0 auto;
+}
+
+.box-weixin .wixin-info{
+	position: relative;
+	display: inline-block;
+	float: left;
+	width: 300px;
+	padding-top: 40px;
+}
+
+.box-right-mid .box-contact{
+	display: inline-block;
+	float: left;
+	padding-right: 40px;
+}
+
+
+
+.lianxi{
+	background: #333 url(https://jiejiangs-1253930943.file.myqcloud.com/images/hz-bg.jpg) no-repeat top center;
+	color: #fff;
+	padding: 50px 0px;
+  }
+  .lianxi h3 {
+	color: #fff;
+	font-size: 24px;
+	margin: 12px 0 20px 0;
+  }
+  .lianxi p span {
+	margin-top: 10px;
+    display: block;
+	margin-right: 10px;
+  }
+  .lianxi p span a {
+	padding: 8px 20px 5px 20px;
+	background: #333;
+	color: #fff;
+	font-size: 14px;
+	margin-left: 20px;
+  }
+
+  .bg-gray{
+	background-color: #f6f6f6;
+  }
+  .bg-blue{
+	background-color: #edf6f4;
+  }
+  .nr_top { text-align:center; padding:60px 0 30px;}
+.nr_top b { font-size:48px; color:#000}
+.nr_top b em { color:#ff9700}
+
+.demoParent img{
+	width:100% !important;
+	height: auto !important;
+}
+#wx_img{
+	display: block;
+	width:auto  !important;
+	margin: 0 auto;
+}
+.demo_item_container{
+	width:25%;
+	float:left;
+	padding:10px;
+}
+.demo_item_container img{
+	width:100%;
+	height: 160px;
+}
+.news_container{
+	margin:10px;
+	padding:10px 50px;
+}
+.shigong_container{
+	margin:10px;padding:10px 50px;
+	box-sizing: border-box;
+	
+	border: 1px;
+	height: 200px;
+}
+.shigong_container:hover{
+	border: 1px solid goldenrod;
+}
+.shigong_container img{
+	width:20%;
+	height:100%
+}
+.shigong_right_container{
+	width:75%;float:right;
+}
